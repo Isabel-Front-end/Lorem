@@ -1,0 +1,45 @@
+//Importar la bajada de stylos sass
+//Abstracts
+@import 'Abstracts/functions';
+@import 'Abstracts/mixins';
+@import 'Abstracts/placeholders';
+@import 'Abstracts/variables';
+
+//Base
+@import 'Base/reset';
+@import 'Base/typography';
+
+//Components
+@import 'Components/buttons';
+@import 'Components/carousel';
+@import 'Components/cover';
+@import 'Components/dropdown';
+
+//Layout
+@import 'Layout/navegation';
+@import 'Layout/grid';
+@import 'Layout/header';
+@import 'Layout/footer';
+@import 'Layout/sidebar';
+@import 'Layout/forms';
+
+//Pages
+@import 'Pages/home';
+@import 'Pages/contact';
+
+//Themes
+@import 'Themes/theme';
+@import 'Themes/admin';
+
+
+
+
+/* Ejemplo de uso de mixins */
+.centro-horizontal {
+    @include center-horizontal; // Usa el mixin para centrar horizontalmente
+  }
+  
+  .centro-vertical {
+    @include center-vertical; // Usa el mixin para centrar verticalmente
+  }
+
